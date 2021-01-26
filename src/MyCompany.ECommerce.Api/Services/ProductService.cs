@@ -6,7 +6,7 @@ namespace MyCompany.ECommerce.Api.Services
     {
         public Product GetProduct(int id)
         {
-            return new Product();
+            return new Product {Id = id};
         }
     }
 }
