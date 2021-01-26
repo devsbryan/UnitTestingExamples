@@ -2,7 +2,7 @@
 
 namespace MyCompany.ECommerce.Api.Services
 {
-    public class ProductService
+    public class ProductService : IProductService
     {
         public Product GetProduct(int id)
         {
